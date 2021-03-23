@@ -79,7 +79,7 @@ ModelSC1$coefficients
 #R-Square values are 0,390 and 0,282, low R-square values, also gap is high. 
 #P and t values are high, Residual error is higher than first model
 ModelSC2 <- lm(SalesPerCapita  ~ UnemploymentRate + EducationSpending + Population + ComputerSales + GDPperHead, data=EuropeanSalesData)
-summary(ModelSalesCap2)
+summary(ModelSC2)
 
 #ModelSalesCap1 is performing better than the second one.
 
