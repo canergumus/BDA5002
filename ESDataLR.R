@@ -77,7 +77,7 @@ ModelComSales1$coefficients
 ModelSalesCap2 <- lm(SalesPerCapita  ~ UnemploymentRate + EducationSpending + Population + ComputerSales + GDPperHead, data=EuropeanSalesData)
 summary(ModelSalesCap2)
 
-#ModelSalesCap2 is performing better than the first one.
+#ModelSalesCap1 is performing better than the second one.
 
 #Change layout to show 4 graphs per page 
 layout(matrix(c(1,3,2,4),2,2)) 
